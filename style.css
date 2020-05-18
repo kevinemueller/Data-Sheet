@@ -1,0 +1,60 @@
+@font-face {
+
+    font-family: Avenir;
+    src: url(./Fonts/AvenirLTStd-Book.otf);
+}
+
+body {
+
+    font-family: Avenir;
+}
+
+.sidenav .page-name {
+
+    padding: 20px 0px 20px 20px;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+}
+
+.sidenav {
+
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #202020;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+
+    padding: 20px 0px 20px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #6E962E;
+    display: block;
+    transition: 0.2s;
+}
+
+.sidenav a:hover {
+
+    color: white;
+    background-color: #6E962E;
+}
+
+.sidenav .page-name:hover {
+    
+    color: white;
+    background-color: transparent;
+}
+
+.main-body {
+    
+    margin-left: 250px;
+    margin-top: 1%;
+    padding: 0px 10px;
+  }
